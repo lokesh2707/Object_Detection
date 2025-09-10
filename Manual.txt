@@ -1,0 +1,18 @@
+Step1: Open the folder in the vs code
+
+Step2: By right clicking on the program u get an options click on open integrated terminal.
+
+Step3: Paste the commands and wait until all packages are downloaded.
+brew install opencv
+pip install opencv-python
+pip install opencv-contrib-python
+pip install opencv-python-headless
+pip install opencv-contrib-python-headless
+pip install matplotlib
+pip install imutils
+
+and at last if it asks any extra packages then download them also.
+
+Step4: TO execute paste this command in the terminal
+
+python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
